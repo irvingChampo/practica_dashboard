@@ -4,11 +4,7 @@ class CustomCard extends StatelessWidget {
   final String title;
   final String value;
 
-  const CustomCard({
-    super.key,
-    required this.title,
-    required this.value,
-  });
+  const CustomCard({super.key, required this.title, required this.value,});
 
   @override
   Widget build(BuildContext context) {
